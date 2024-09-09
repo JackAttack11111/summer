@@ -1,12 +1,12 @@
 body {
-    background-color: black;
+    background-color: #4C6085;
     margin: 0;
     width: 100%;
 }
 
 #navbar {
     list-style-type: none;
-    background: #949494;
+    background: #32322C;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -18,7 +18,7 @@ body {
 
 #navbar > li > a{
     display: block;
-    background: #6B6B6B;
+    background: #4e4e4e;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -26,9 +26,22 @@ body {
 }
 
 #navbar > li > a:hover {
-    background-color: #545454;
+    background-color: #707070;
 }
 
 #navbar > li > #active {
-    background-color: #858585;
+    background-color: #39A0ED;
 }
+
+#headText {
+    color: white;
+    text-align: center;
+}
+
+/* Color Palette 
+#4C6085
+#39A0ED
+#36F1CD
+#13C4A3
+#32322C
+*/
