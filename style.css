@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    margin: 0;
+    width: 100%;
+}
+
+#navbar {
+    list-style-type: none;
+    background: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar > li {
+    float: left;
+}
+
+#navbar > li > a{
+    display: block;
+    background: gray;
+}
