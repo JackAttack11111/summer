@@ -6,10 +6,10 @@ body {
 
 #navbar {
     list-style-type: none;
-    background: white;
-    width: 100%;
+    background: #949494;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 #navbar > li {
@@ -18,5 +18,17 @@ body {
 
 #navbar > li > a{
     display: block;
-    background: gray;
+    background: #6B6B6B;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar > li > a:hover {
+    background-color: #545454;
+}
+
+#navbar > li > #active {
+    background-color: #858585;
 }
