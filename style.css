@@ -36,8 +36,30 @@ body {
 #headText {
     color: white;
     text-align: center;
+    font-size: 36pt;
 }
 
+.itemcard {
+    position: absolute;
+    background-color: white;
+    margin-left: 250px;
+    margin-top: 0px;
+    padding: 161px;
+    padding-right: 80px;
+    z-index: 0;
+    border-radius: 0 30px 30px 0;
+}
+
+#itemID {
+    background-image: url(img/loom.jpg);
+    background-size: contain;
+    width: 340px;
+    height: 340px;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    border-radius: 0;
+}
 /* Color Palette 
 #4C6085
 #39A0ED
